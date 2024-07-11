@@ -1,0 +1,6 @@
+.App {
+  height: 100vh; /* Sets the height to 100% of the viewport height */
+  width: 100%; /* Ensures the width spans 100% */
+  overflow: hidden; /* Prevents overflow if content exceeds the height */
+}
+

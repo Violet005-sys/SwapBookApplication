@@ -1,0 +1,58 @@
+.card {
+    background: none;
+    border: none;
+}
+
+/*page content*/
+
+.text-group{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 0;
+}
+.books-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+.books-subtitle {
+    font-size: 13px;
+    font-weight: 400;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+.sub-texts {
+    font-size: 13px;
+    font-weight: 200;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+/* single book page */
+.book-title {
+    font-size: 55px;
+    font-weight: 400;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+.book-desc {
+    font-size: 13px;
+    font-weight: 200;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+.book-text {
+    font-size: 13px;
+    font-weight: 200;
+    color: black;
+    margin: 0;
+    padding: 0;
+}

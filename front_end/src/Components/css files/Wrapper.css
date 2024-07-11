@@ -1,0 +1,214 @@
+@media (max-width: 768px) {
+    .sideBar, .topBar {
+      display: none;
+    }
+    .toggle{
+        display: block;
+    }
+    .search{
+        display: none;
+    }
+  }
+
+:root {
+    --primary-font: "Montserrat", sans-serif;
+    --primary-color: #FCA72C;
+    --secondary-color: #F9F3EE;
+    --tertiary-color: #674F2C;
+    --error: #FF5858;
+    --success: #4CAF50;
+}
+
+
+
+*{
+    font-family: poppins;
+}
+
+.primaryFont {
+font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.homePage {
+    width: 100%;
+    height: 100vh;
+    overflow: none;
+    display: flex;
+    flex-direction: row;
+    background-color: #F2E5D0;
+    font-family: monospace;
+    color: #674F2C;
+}
+
+.sideBar {
+    width: fit-content;
+    height: 100vh;
+    position: sticky;
+}
+.main {
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.topBar {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.pageContent {
+    width: 100%;
+    height: 80vh;
+    border-radius: 5%;
+    padding: 34px 55px;
+    margin-bottom: 34px;
+    overflow: hidden;
+    background-color: #F9F3EE;
+}
+
+.scrollable-content {
+    flex: 1;
+    overflow-y: auto; /* Vertical scrolling */
+    padding: 5px;
+    height: 100vh; /* Adjust based on header and footer height */
+    
+  }
+  
+  .scrollable-content::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+  }
+
+  .sticky-content {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+
+.primaryButton {
+    background-color: #FCA72C;
+    color: #F9F3EE;
+}
+.primaryButton-outline {
+    border: 1px #FCA72C solid;
+    color: #FCA72C;
+}
+
+
+
+/* topbar styling*/
+.logo{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 5px;
+    justify-content: flex-start;
+    align-items: first baseline;
+    
+}
+
+.floatingButton {
+    position: absolute;
+    right: -8px;
+    top: -8px;
+    color: var(--primary-color);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 50%;
+}
+
+.badge-delete{
+    position: absolute;
+    right: -34px;
+    top: 65px;
+    background-color: whitesmoke;
+    color: var(--error);
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 13%;
+    padding: 5px 11px;
+    font-size: 10px;
+
+}
+.badge-update{
+    position: absolute;
+    right: -34px;
+    top: 34px;
+    background-color: whitesmoke;
+    border: none;
+    color: var(--primary-color);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 13%;
+    padding: 5px 8px;
+    font-size: 10px;
+
+}
+
+.floatButton{
+    position: absolute;
+    right: -13px;
+    top: -13px;
+    color: var(--primary-color);
+    
+    
+}
+
+.buttongroup{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: flex-start;
+    align-items: first baseline;
+    margin: 8px 3px;
+}
+.buttonGroup{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    justify-content: flex-start;
+    align-items: first baseline;
+    margin: 3px 3px;
+}
+
+.flex-it{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3px;
+}
+
+.link {
+    color: var(--tertiary-color);
+    list-style: none;
+    text-decoration: underline;
+    text-align: left;
+    padding: 13px 5px;
+    margin: 13px 0;
+    border-radius: 16px;
+ }
+
+ .topLink {
+    color: var(--tertiary-color);
+    list-style: none;
+    text-decoration: none;
+    text-align: left;
+    border-radius: 16px;
+ }
+
+ .toggle{
+    display: none;
+ }
+
+ .search{
+    display: block;
+ }
